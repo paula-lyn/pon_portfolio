@@ -1,0 +1,16 @@
+.active{
+    background-color: #D3F5CF !important;
+}
+.content{
+    background-color: #FBFBFF ;
+}
+.content .row{
+    margin: 1em 0;
+}
+
+@media only screen and (max-width: 723px) {
+    .nav-tabs li{
+        font-size: 12px;
+    }
+
+}

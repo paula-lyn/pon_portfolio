@@ -1,0 +1,15 @@
+.btn-primary{
+    background-color: #FBFBFF;
+    color: #635EE2;
+    font-size: 16px;
+    font-weight: 700;
+    border-color: #635EE2;
+    border-radius: 100px;
+    padding: .5em 3em;
+}
+
+.btn-primary:hover{
+    background-color: #D3F5CF;
+    border-color: #D3F5CF;
+    color: #635EE2;
+}

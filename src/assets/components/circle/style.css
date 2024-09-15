@@ -1,0 +1,11 @@
+.circle {
+    border-radius: 50%;
+    display: inline-block;
+    background: linear-gradient(
+        0deg,
+        #635EE2,
+        #a8dbfa,
+        #D3F5CF
+    );
+    z-index: -1;
+  }

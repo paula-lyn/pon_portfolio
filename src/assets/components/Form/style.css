@@ -1,0 +1,32 @@
+form{
+    margin: 1em 1em;
+}
+.field .form-control{
+    border-color: #635EE2;
+}
+.field .form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #D3F5CF;
+}
+
+.submit{
+    background-color: #635EE2;
+    color: #FBFBFF;
+}
+
+@media only screen and (max-width: 723px) {
+    .contacts{
+        padding-top: 4em;
+    
+    }
+    .contacts p{
+        font-size: 18px;
+        padding: 0 1.5em;
+    }
+    .field .buttons{
+        display: flex;
+        flex-direction: column;
+
+    }
+  }

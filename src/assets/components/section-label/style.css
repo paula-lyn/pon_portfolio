@@ -1,0 +1,35 @@
+.section-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .section-border {
+    position: absolute;
+    top: 2em;
+    left: 2em;
+    width: 16em;
+    height: 5em;
+    border: 2px solid #9b8ee3;
+    z-index: 0;
+  }
+  
+  .section-label {
+    position: relative;
+    z-index: 1;
+    background-color: #d1f5d3; 
+    padding: .5em 2em;
+
+    color: #6d5ed4; 
+    font-weight: bold;
+  }
+  
+
+@media only screen and (max-width: 723px) {
+  .section-border {
+    position: absolute;
+    top: 1.5em;
+    width: 10em;
+    height: 3em;
+  }
+
+}

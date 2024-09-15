@@ -1,0 +1,30 @@
+
+.label {
+    background: linear-gradient(
+        90deg,
+        #635EE2,
+        #a8dbfa
+    );
+    padding: .5em 3em;
+    margin: 0 1em;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 100em;
+    color: #FBFBFF;
+    letter-spacing: 1px;
+    display: block; 
+    width: 75%; 
+    text-align: center; 
+    box-sizing: border-box; 
+}
+@media only screen and (max-width: 723px) {
+    .label {
+        padding: .5em 1em;
+        margin: 0 1em;
+        font-size: 14px;
+ 
+        width: 95%; 
+
+    }
+}
+

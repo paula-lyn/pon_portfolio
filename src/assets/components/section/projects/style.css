@@ -1,0 +1,25 @@
+.project{
+    padding-top: 2.9em;
+
+}
+.project .card{
+    margin: 1em 0 !important;
+    
+    max-height: 150%
+}
+.project .row{
+    padding: 2em;
+}
+.disabled{
+    background: none !important;
+    border-color: rgb(142, 141, 141) !important;
+    color: rgb(142, 141, 141) !important;
+}
+
+@media only screen and (max-width: 723px) {
+    .project{
+        padding-top: 4em;
+    
+    }
+  
+  }

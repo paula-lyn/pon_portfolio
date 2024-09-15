@@ -1,0 +1,12 @@
+.tech-stack{
+    padding-top: 5em;
+
+}
+
+@media only screen and (max-width: 723px) {
+    .tech-stack{
+        padding-top: 4em;
+    
+    }
+
+}

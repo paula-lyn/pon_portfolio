@@ -1,0 +1,35 @@
+nav{
+    background: #FBFBFF;
+    top: 0;
+    width: 100%;
+    padding: 10px 20px;
+    box-shadow: 0 2px 8px rgba(100, 95, 227, 0.1);
+    z-index: 1000;
+    padding: 0 !important;
+}
+
+.nav-link{
+    color: #635EE2 !important;
+    text-transform: uppercase;
+    font-size: .9em !important;
+    font-weight: 700 !important;
+    padding: 1em  2em !important;
+    text-align: center;
+} 
+.nav-link:hover{
+    background-color: #D3F5CF;
+}
+
+.navbar-toggler{
+    margin: .5em 0;
+    border-color: #635EE2;
+}
+.navbar-toggler:focus{
+    outline: none !important;
+    box-shadow: 0 0 0 2px rgba(100, 95, 227, 0.5); 
+}
+
+
+
+
+  

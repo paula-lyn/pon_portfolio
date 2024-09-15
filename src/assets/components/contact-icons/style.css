@@ -1,0 +1,19 @@
+.contact-icons svg{
+    fill: #645fe3;
+    height: 2.5em;
+    margin: 0 1em;
+}
+
+.contact-icons svg:hover{
+
+        fill: #d2f5ce;
+        filter: drop-shadow(0px 5px 0px rgba(100, 95, 227, 1));
+
+}
+
+@media only screen and (max-width: 723px) {
+    .contact-icons svg{
+
+        height: 2em;
+    }
+}
