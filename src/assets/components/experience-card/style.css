@@ -1,0 +1,40 @@
+
+.card{
+    border-color: #a8dbfa;
+    box-shadow: 0 2px 4px #30303025;
+}
+.card-header{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FBFBFF;
+    background-color: #a8dbfa;
+    border-color: #a8dbfa;
+}
+span.text-muted{
+    color: #FBFBFF !important;
+}
+.card-subtitle{
+   
+    font-style: italic;
+}
+.exp-desc{
+    font-size: 16px;
+    color: #303030;
+}
+@media only screen and (max-width: 723px) {
+    .exp-card{
+        margin: 0 .5em;
+    }
+    .card-header{
+        font-size: 18px;
+        flex-direction: column;
+    }
+    span.text-muted{
+        font-size: 14px;
+        font-style: italic;
+    }
+    .card-subtitle{
+        font-size: 14px;
+        font-style: normal;
+    }
+}
