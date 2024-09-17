@@ -22,3 +22,5 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 - **Google Sheets:** For storing form submissions and sending notifications.
 
 ## Deployment
+
+- This project is deployed using GitHub Pages. To view the live site, visit: https://pau-lyn.github.io/pon_portfolio/
