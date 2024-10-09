@@ -16,7 +16,7 @@ function ContactIconComponent() {
         <FacebookIcon color="" />
       </a>
       <a
-        href="https://github.com/pau-lyn"
+        href="https://github.com/paula-lyn"
         target="_blank"
         rel="noopener noreferrer"
       >
