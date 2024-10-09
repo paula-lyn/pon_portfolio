@@ -32,7 +32,7 @@ function Projects() {
                 src={QuizImage}
                 title="QuickQuiz App"
                 text="The QuickQuiz App is a React.js web application that lets users test their knowledge with interactive quizzes. It offers real-time feedback and a responsive design for a smooth experience on both desktop and mobile devices."
-                link="https://pau-lyn.github.io/Quick-Quiz/"
+                link="https://paula-lyn.github.io/Quick-Quiz/"
               />
             </motion.div>
           </Col>

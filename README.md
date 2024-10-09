@@ -23,4 +23,4 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
 
 ## Deployment
 
-- This project is deployed using GitHub Pages. To view the live site, visit: https://pau-lyn.github.io/pon_portfolio/
+- This project is deployed using GitHub Pages. To view the live site, visit: https://paula-lyn.github.io/pon_portfolio/
