@@ -54,7 +54,7 @@ function AboutMe() {
             </p>
             <div className="d-flex justify-content-between align-items-center flex-column-center">
               <a
-                href="https://drive.google.com/file/d/19Xm5lKI-84TacOGkfns7f_jpqb4rE6wC/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1CxXXzDifcRewlm2p-9kfIq09RGI3Ywx2/view?usp=sharing"
                 target="_blank"
               >
                 <ButtonComponent>Resume/CV</ButtonComponent>

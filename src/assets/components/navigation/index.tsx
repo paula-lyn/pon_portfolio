@@ -19,7 +19,7 @@ function Navigation() {
             <Nav.Link href="#about-me">About Me</Nav.Link>
             <Nav.Link href="#tech-stack">Tech Stack</Nav.Link>
             <Nav.Link
-              href="https://drive.google.com/file/d/19Xm5lKI-84TacOGkfns7f_jpqb4rE6wC/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1CxXXzDifcRewlm2p-9kfIq09RGI3Ywx2/view?usp=sharing"
               target="_blank"
             >
               Resume/CV
