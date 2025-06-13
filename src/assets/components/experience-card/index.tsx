@@ -1,20 +1,14 @@
 import Card from "react-bootstrap/Card";
+import { Experience } from "../../../data/experiences";
 
 import "./style.css";
-
-interface CardComponentProps {
-  position?: string;
-  company?: string;
-  date?: string;
-  text?: string;
-}
 
 function ExperienceCard({
   position = "",
   company = "",
   date = "",
   text = "",
-}: CardComponentProps) {
+}: Experience) {
   return (
     <Card className="exp-card mt-4">
       <Card.Header className="d-flex justify-content-between">

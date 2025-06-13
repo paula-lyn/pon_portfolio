@@ -1,11 +1,11 @@
 import CardComponent from "../../card";
-import QuizImage from "../../../images/Quiz.png";
-import EasykayImage from "../../../images/Easykay.png";
 import SectionLabel from "../../section-label";
 
 import "./style.css";
 import { Row, Col } from "react-bootstrap";
 import { motion } from "framer-motion";
+
+import { projects } from "../../../../data/projects";
 
 function Projects() {
   const cardVariants = {
@@ -26,27 +26,16 @@ function Projects() {
       <SectionLabel> Projects </SectionLabel>
       <motion.div initial="hidden" whileInView="visible">
         <Row>
-          <Col lg={4} xs={12}>
-            <motion.div variants={cardVariants} custom={0}>
-              <CardComponent
-                src={QuizImage}
-                title="QuickQuiz App"
-                text="The QuickQuiz App is a React.js web application that lets users test their knowledge with interactive quizzes. It offers real-time feedback and a responsive design for a smooth experience on both desktop and mobile devices."
-                link="https://paula-lyn.github.io/Quick-Quiz/"
-              />
-            </motion.div>
-          </Col>
-          <Col lg={4} xs={12}>
-            <motion.div variants={cardVariants} custom={1}>
-              <CardComponent
-                src={EasykayImage}
-                title="Transport Commuting Guide System"
-                text="EasyKay is a web app for Santa Maria, Bulacan commuters, offering essential info like jeepney terminals, fare costs, ETA, and distance metrics. It also integrates data from the Municipal Tourism Office to promote local tourism."
-                disabled={true}
-                classname="disabled"
-              />
-            </motion.div>
-          </Col>
+          {projects
+            .slice()
+            .reverse()
+            .map((project, idx) => (
+              <Col lg={4} xs={12} key={project.title}>
+                <motion.div variants={cardVariants} custom={idx}>
+                  <CardComponent {...project} />
+                </motion.div>
+              </Col>
+            ))}
         </Row>
       </motion.div>
     </div>

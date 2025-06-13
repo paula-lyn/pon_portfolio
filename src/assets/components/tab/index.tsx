@@ -9,6 +9,8 @@ import ServiceCard from "../services-card";
 import WebIcon from "../../icons/web";
 import TestIcon from "../../icons/test";
 
+import experiences from "../../../data/experiences";
+
 import { motion } from "framer-motion";
 
 import "./style.css";
@@ -75,17 +77,19 @@ function TabComponent() {
           <motion.div initial="hidden" whileInView="visible">
             <h3>Experiences</h3>
 
-            <motion.div variants={rowVariants} custom={0}>
-              <ExperienceCard
-                position="Front-End Web Developer Intern / Software Tester Intern"
-                company="Highly Succeed Inc. (Mandaluyong City, Philippines)"
-                date="March 2024 - June 2024"
-                text="Developed front-end of web application using HTML, Sass, Bootstrap, and React.js, ensuring it is API-ready. 
-            Conducted manual, regression, and user acceptance testing, and filed detailed bug tickets in Jira. 
-            Created and executed test cases to ensure coverage of the system requirements and identify potential issues.
-"
-              />
-            </motion.div>
+            {experiences
+              .slice()
+              .reverse()
+              .map((exp, index) => (
+                <motion.div key={index} variants={rowVariants} custom={index}>
+                  <ExperienceCard
+                    position={exp.position}
+                    company={exp.company}
+                    date={exp.date}
+                    text={exp.text}
+                  />
+                </motion.div>
+              ))}
           </motion.div>
         </div>
       </Tab>
